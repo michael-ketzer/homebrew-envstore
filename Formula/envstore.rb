@@ -15,28 +15,28 @@
 class Envstore < Formula
   desc "Zero-knowledge encrypted .env file storage"
   homepage "https://envstore.xyz"
-  version "0.1.4"
+  version "0.2.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/michael-ketzer/envstore.xyz/releases/download/v#{version}/envstore-darwin-arm64"
-      sha256 "0798e98dfd3dd11d9ae9ac1b574eae142976b77addeca172aad9493a9ac63b4c"
+      sha256 "079a336c5b465bf4b2c040d8294d1e3ee80c18ca3adaf0e9c9cf032f6fb0a997"
     end
     on_intel do
       url "https://github.com/michael-ketzer/envstore.xyz/releases/download/v#{version}/envstore-darwin-x64"
-      sha256 "2a30dfac4ef6b50444eceb13abf1e07552f41edb843e8d836bb7c34ea82c2c78"
+      sha256 "765bf9ff22998d7bb380d586c215d85fbfc7f2c23ac776e89b557876676c149f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/michael-ketzer/envstore.xyz/releases/download/v#{version}/envstore-linux-arm64"
-      sha256 "79fd23ee9e50567e3342eb981f83bb79dfa072cb990b001814eaae58f429ef60"
+      sha256 "dd83e5408e268e63a7c46de3b507ff3b367209a49fd8788ca5f8ec7e26fb410f"
     end
     on_intel do
       url "https://github.com/michael-ketzer/envstore.xyz/releases/download/v#{version}/envstore-linux-x64"
-      sha256 "7e913fc13bad582f4ecb0cbc5b753668bfc6593f86a04b93066db5ebc3c01a32"
+      sha256 "33329923b67d1b01f148f54c1d1eefb528ccaf5e3ed4c68345cbbeb9f08b5662"
     end
   end
 
